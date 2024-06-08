@@ -51,6 +51,7 @@ CREATE TABLE "Service" (
     "price" DECIMAL(10,2) NOT NULL,
     "barbershopId" TEXT NOT NULL,
     "description" TEXT NOT NULL,
+    "imageUrl" TEXT,
 
     CONSTRAINT "Service_pkey" PRIMARY KEY ("id")
 );
